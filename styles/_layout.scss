@@ -1,0 +1,33 @@
+.mainDiv {
+  padding: 0 10rem;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.about {
+  height: 100%;
+}
+
+.aboutColumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+
+  p {
+    padding-right: 2rem;
+  }
+}
