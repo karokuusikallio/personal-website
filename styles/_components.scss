@@ -1,0 +1,72 @@
+.project {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.descriptionDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+  p {
+    padding: 0 1rem;
+  }
+}
+
+.contactForm {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+
+  h3 {
+    margin: 0.5rem;
+  }
+
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  input,
+  textarea {
+    outline: none;
+    margin: 0.5rem;
+    border: 2px solid #048a81;
+    width: 100%;
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border: 2px solid #e0ca3c;
+    -webkit-transition: border-bottom-color 0.3s ease-out;
+    -moz-transition: border-bottom-color 0.3s ease-out;
+    -o-transition: border-bottom-color 0.3s ease-out;
+    transition: border-bottom-color 0.3s ease-out;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    background-color: #048a81;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  button:hover {
+    background-color: #e0ca3c;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+  }
+}
