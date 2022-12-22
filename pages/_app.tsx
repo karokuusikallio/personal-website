@@ -41,8 +41,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={`mainDiv ${poppins300.className}`}>
-        <Header />
         <div className="container">
+          <Header />
           <Component {...pageProps} />
         </div>
         <Footer />

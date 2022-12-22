@@ -70,3 +70,60 @@
     transition: background-color 0.3s ease-out;
   }
 }
+
+@media (max-width: 724px) {
+  .descriptionDiv {
+    flex-direction: column !important;
+    padding: 0.5rem 0 !important;
+    p {
+      padding: 0 0.5rem !important;
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .cvImage {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .cvImageAvanade {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .cvImageSibesonke {
+    height: 10px !important;
+    width: 50px !important;
+  }
+
+  .cvImageHH {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .descriptionDiv {
+    flex-direction: column !important;
+  }
+}
+
+.pieChart {
+  canvas {
+    height: 400px !important;
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .projectImage {
+    width: 253px !important;
+    height: 125px !important ;
+  }
+
+  .pieChart {
+    canvas {
+      height: 350px !important;
+      width: 350px !important;
+    }
+  }
+}

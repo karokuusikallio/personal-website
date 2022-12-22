@@ -61,6 +61,7 @@ export default function Home() {
             below. On my free time I dance salsa, play guitar and watch a ton of
             movies.
           </p>
+          <br /> <br />
           <Image
             alt="profile-picture"
             src="/profile-picture.jpg"
@@ -70,11 +71,12 @@ export default function Home() {
             priority={true}
           />
         </div>
+        <br />
         <div className="pieChartDiv">
           <h2>My skillset</h2>
           <br /> <br />
-          <div style={{ height: "400px", width: "400px" }}>
-            <Pie data={data} className="pieChart" />
+          <div className="pieChart">
+            <Pie data={data} />
           </div>
           <br /> <br />
         </div>

@@ -3,13 +3,11 @@ import ContactForm from "../components/ContactForm";
 export default function Contact() {
   return (
     <>
-      <main>
+      <main style={{ height: "100%" }}>
         <h2>Contact</h2>
         <div className="contactForm">
           <ContactForm />
         </div>
-        <br />
-        <br />
       </main>
     </>
   );

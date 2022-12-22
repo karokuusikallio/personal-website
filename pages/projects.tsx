@@ -35,10 +35,12 @@ export default function Projects() {
                 Design Tools: Figma, Affinity Designer & Photo
               </p>
             </div>
+            <br />
+            <br />
             <Image
               alt="cover-arts-screenshot"
               src="/cover-arts-screenshot.jpg"
-              className="image"
+              className="image projectImage"
               height={190}
               width={384}
               priority={true}
@@ -53,6 +55,13 @@ export default function Projects() {
             rel="noreferrer"
           >
             Link to the App
+          </a>
+          <a
+            href="https://github.com/karokuusikallio/sportart-v2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Link to the Github Repo
           </a>
         </div>
         <div className="project">
@@ -86,10 +95,11 @@ export default function Projects() {
                 Design Tools: Figma, Affinity Designer & Photo
               </p>
             </div>
+            <br /> <br />
             <Image
               alt="buddy-screenshot"
               src="/buddy-screenshot.jpg"
-              className="image"
+              className="image projectImage"
               height={190}
               width={384}
               priority={true}
@@ -104,6 +114,20 @@ export default function Projects() {
             rel="noreferrer"
           >
             Link to the App
+          </a>
+          <a
+            href="https://github.com/karokuusikallio/emph-chatbot-backend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Link to the Github Repo (Backend)
+          </a>
+          <a
+            href="https://github.com/karokuusikallio/emph-chatbot-frontend"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Link to the Github Repo (Frontend)
           </a>
         </div>
         <br />
