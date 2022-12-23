@@ -46,8 +46,8 @@ export default function Home() {
         <div className="aboutColumns">
           <p className={poppins300.className}>
             Nice to meet you. I&apos;m Karo, <b>a web developer</b>. I&apos;m
-            excited about everything related to Javascript. I use to work before
-            as a UX designer but I wanted to learn to code. I studied and
+            excited about everything related to Javascript. I used to work
+            before as a UX designer but I wanted to learn to code. I studied and
             created my own little projects on my free time until I was ready to
             jump into a project that I was already working in as a designer. It
             was a React project for one of the largest retailers in Finland. I
