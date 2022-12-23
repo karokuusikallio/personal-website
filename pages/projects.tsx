@@ -57,7 +57,7 @@ export default function Projects() {
             Link to the App
           </a>
           <a
-            href="https://github.com/karokuusikallio/sportart-v2"
+            href="https://github.com/karokuusikallio/cover-arts"
             target="_blank"
             rel="noreferrer"
           >
