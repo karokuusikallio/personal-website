@@ -34,37 +34,29 @@ const ContactForm = () => {
         method="POST"
         target="_blank"
       >
-        <div>
-          <input
-            type="text"
-            placeholder="Your name"
-            name="name"
-            required
-            className={poppins300.className}
-          />
-        </div>
-        <div>
-          <input
-            type="email"
-            placeholder="Email"
-            name="email"
-            required
-            className={poppins300.className}
-          />
-        </div>
-        <div>
-          <textarea
-            placeholder="Your message"
-            name="message"
-            required
-            className={poppins300.className}
-          />
-        </div>
-        <div>
-          <button type="submit" className={poppins500.className}>
-            Send a message
-          </button>
-        </div>
+        <input
+          type="text"
+          placeholder="Your name"
+          name="name"
+          required
+          className={poppins300.className}
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          required
+          className={poppins300.className}
+        />
+        <textarea
+          placeholder="Your message"
+          name="message"
+          required
+          className={poppins300.className}
+        />
+        <button type="submit" className={poppins500.className}>
+          Send a message
+        </button>
       </form>
     </>
   );

@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <main>
         <h2>Projects</h2>
-        <div className="project">
+        <div className="project box">
           <h2>Cover Arts</h2>
           <div className="descriptionDiv">
             <div>

@@ -1,12 +1,15 @@
-.project {
+.box {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 1rem;
   margin: 1rem;
   margin-bottom: 2rem;
+  background: white;
+}
+
+.project {
   display: flex;
   flex-direction: column;
-  background: white;
 }
 
 .descriptionDiv {
@@ -32,14 +35,14 @@
   form {
     width: 100%;
     max-width: 400px;
-  }
 
-  input,
-  textarea {
-    outline: none;
-    margin: 0.5rem;
-    border: 2px solid #048a81;
-    width: 100%;
+    input,
+    textarea {
+      outline: none;
+      margin: 0.5rem;
+      border: 2px solid #048a81;
+      width: calc(100% - 20px);
+    }
   }
 
   textarea:focus,

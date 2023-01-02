@@ -43,7 +43,7 @@ export default function Home() {
     <>
       <main className="about">
         <h2>About</h2>
-        <div className="aboutColumns">
+        <div className="aboutColumns box">
           <p className={poppins300.className}>
             Nice to meet you. I&apos;m Karo, <b>a web developer</b>. I&apos;m
             excited about everything related to Javascript. I used to work
@@ -70,12 +70,11 @@ export default function Home() {
             width={300}
             priority={true}
           />
+          <br />
         </div>
-        <br />
         <div className="pieChartDiv">
           <h2>My skillset</h2>
-          <br /> <br />
-          <div className="pieChart">
+          <div className="pieChart box">
             <Pie data={data} />
           </div>
           <br /> <br />
