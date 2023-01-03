@@ -15,7 +15,8 @@
     "react": "18.2.0",
     "react-chartjs-2": "^5.1.0",
     "react-dom": "18.2.0",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@types/chart.js": "^2.9.37",

@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_TRACKING_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-C2KMD9MQ54`}
       />
 
       <Script
@@ -72,7 +72,9 @@ export default function App({ Component, pageProps }: AppProps) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             
-            gtag('config', '${process.env.GOOGLE_TRACKING_ID}');
+            gtag('config', 'G-C2KMD9MQ54', {
+            page_path: window.location.pathname,
+            });
             `,
         }}
       />
