@@ -64,7 +64,7 @@ export default function Projects() {
             Link to the Github Repo
           </a>
         </div>
-        <div className="project">
+        <div className="project box">
           <h2>Meet Buddy</h2>
           <div className="descriptionDiv">
             <div>
