@@ -107,7 +107,8 @@ export default function Home() {
               My projects as a consultant have been in the fields of
               international development, retail, energy and pulp and paper
               industry. These projects range from enterprise intranets and CRM
-              systems to marketing tools for mobile and web.
+              systems to marketing tools for mobile and web. I&apos;m used to
+              working both in Finnish and English.
             </p>
           </div>
           <br /> <br />
