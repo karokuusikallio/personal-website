@@ -57,8 +57,8 @@ export default function Home() {
               I&apos;ve been coding with Javascript for years and I am
               proficient with the popular frameworks for frontend and backend
               such as React and Express. I am familiar with the best practices
-              and pitfalls related to the language. I am motivated to write
-              clean and maintainable code that uses the modern features of
+              and pitfalls related to the language. I&apos;m always motivated to
+              write clean and maintainable code that uses the modern features of
               Javascript. Check out some examples on the projects-page.
             </p>
             <br />
@@ -75,10 +75,10 @@ export default function Home() {
             <p>
               I have a business degree and marketing experience that helps me to
               connect my development work to the business logic that the feature
-              or service developed serves. I&apos;m also proficient with working
-              with several stakeholders and expressing my views and suggestions
-              with a clear and concise way. I&apos;m a team player and socially
-              capable of working with different kinds of people.
+              or service developed serves. I&apos;m also skilled in working with
+              several stakeholders and expressing my views and suggestions in a
+              clear and concise way. I&apos;m a team player and socially capable
+              of working with different kinds of people.
             </p>
             <br />
             <br />
