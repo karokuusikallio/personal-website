@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { poppins300 } from "./_app";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
@@ -44,24 +45,49 @@ export default function Home() {
       <main className="about">
         <h2>About</h2>
         <div className="aboutColumns box">
-          <p className={poppins300.className}>
-            Nice to meet you. I&apos;m Karo, <b>a web developer</b>. I&apos;m
-            excited about everything related to Javascript. I used to work
-            before as a UX designer but I wanted to learn to code. I studied and
-            created my own little projects on my free time until I was ready to
-            jump into a project that I was already working in as a designer. It
-            was a React project for one of the largest retailers in Finland. I
-            was so excited about being able to bring my designs alive into
-            actual code. I still love designing but now I consider myself as a
-            developer and I don&apos;t regret it.
+          <div>
+            <p className={poppins300.className}>
+              Nice to meet you. I&apos;m Karo, <b>a web developer</b>. I love
+              everything related to Javascript. I make use of <b>three</b> key
+              strengths areas as a developer:
+            </p>
             <br />
-            <br />I took a couple years off IT industry and tried something
-            totally different but now I&apos;m back and ready to take on
-            challenges as a fully fledged developer. Check out my skillset down
-            below. On my free time I dance salsa, play guitar and watch a ton of
-            movies.
-          </p>
-          <br /> <br />
+            <h4>1. Strong Knowledge in Javascript</h4>
+            <p>
+              I&apos;ve been coding with Javascript for years and I am
+              proficient with the popular frameworks for frontend and backend
+              such as React and Express. I am familiar with the best practices
+              and pitfalls related to the language. I am motivated to write
+              clean and maintainable code that uses the modern features of
+              Javascript. Check out some examples on the projects-page.
+            </p>
+            <br />
+            <h4>2. UX Design Experience</h4>
+            <p>
+              I&apos;ve worked earlier also as a designer and I have a lot of
+              knowledge about usability, accessibility and testing practices
+              based on projects with large enterprises in Finland and abroad.
+              This experience is valuable also when working as a developer and
+              communicating with designers, customers and end-users.
+            </p>
+            <br />
+            <h4>3. Business Background</h4>
+            <p>
+              I have a business degree and marketing experience that helps me to
+              connect my development work to the business logic that the feature
+              or service developed serves. I&apos;m also proficient with working
+              with several stakeholders and expressing my views and suggestions
+              with a clear and concise way. I&apos;m a team player and socially
+              capable of working with different kinds of people.
+            </p>
+            <br />
+            <br />
+            <p>
+              Check out my skillset in detail down below. On my free time I
+              dance salsa, play guitar and watch a ton of movies.
+            </p>
+            <br /> <br />
+          </div>
           <Image
             alt="profile-picture"
             src="/profile-picture.jpg"
@@ -74,8 +100,15 @@ export default function Home() {
         </div>
         <div className="pieChartDiv">
           <h2>My skillset</h2>
-          <div className="pieChart box">
+          <div className="pieChart aboutColumns box">
             <Pie data={data} />
+            <br />
+            <p>
+              My projects as a consultant have been in the fields of
+              international development, retail, energy and pulp and paper
+              industry. These projects range from enterprise intranets and CRM
+              systems to marketing tools for mobile and web.
+            </p>
           </div>
           <br /> <br />
         </div>

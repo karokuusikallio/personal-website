@@ -69,18 +69,13 @@ export default function CV() {
             iconStyle={{ background: "#048A81", color: "#fff" }}
             icon={massageImage}
           >
-            <h3 className="vertical-timeline-element-title">
-              Trained Massage Therapist
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Hieroja Helsinki - Helsinki, Finland
-            </h4>
             <p>
-              I wanted to take a break from IT and learn about the human body
-              and wellbeing. After graduating from a massage school I worked 6
-              months as a massage entrepreneur in Helsinki area. These skills
-              will be useful throughout my life despite making a decision not to
-              make it a career.
+              I took a break from IT and learned about the human body and
+              wellbeing. I graduated from a massage school and worked for a
+              while as a massage therapist while working with some code projects
+              on the side. The skills learned as a massage therapist will be
+              useful throughout my life despite making a decision not to make it
+              a career.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
